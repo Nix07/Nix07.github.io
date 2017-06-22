@@ -8,7 +8,7 @@
 }
 
 .navbar-brand{
-  background-color: skyblue;
+  background-color: rgba(32, 89, 215, 0.83);
   border-radius: 5px;
   height: 2em;
   color: white;
@@ -25,9 +25,9 @@
 }
 
 .navbar {
-  background-image: url(/img/slide1.jpg);
+  background-image: url(../img/slide1.jpg);
   background-size: 100% 100%;
-  height: 750px;;
+  height: 54em;
 }
 
 #home>h1{
@@ -54,10 +54,65 @@
   height: 3.5em;
   width: 12em;
   font-size: 1.1em;
+  background: rgba(32, 89, 215, 0.83);
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3em;
+  height: 42em;
+}
+
+#left {
+  background-color: rgba(236, 236, 236, 0.40);
+  flex: 1 1 50%;
+}
+
+#left>h4 {
+  position: relative;
+  left: 15%;
+  top: 13%;
+}
+
+#left>h1{
+  position: relative;
+  left: 15%;
+  top: 12%;
+  font-size: 3em;
+  font-weight:300;
+  width: 70%;
+}
+
+#right {
+  background-color: white;
+  flex: 1 1 50%;
+}
+
+#right>p{
+  position: relative;
+  top: 13%;
+  left: 5%;
+  width: 70%;
+  line-height: 2em;
+}
+
+#right>div{
+  margin-top: 10em;
+}
+
+#right>div>h5{
+  position: relative;
+  left: 5%;
+  font-weight: bold;
 }
 
 /* Media Queried */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
+  .navbar{
+    height: 40em;
+  }
+
   #home>h1{
     position: relative;
     top: 5em;
@@ -73,6 +128,6 @@
   }
 
   #home>div>button{
-
+    float: none;
   }
 }
