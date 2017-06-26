@@ -11,24 +11,34 @@
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+    <link rel="stylesheet" href="./css/card.css">
+    <link rel="stylesheet" href="./css/animate.css">
 
   </head>
   <body>
 
-    <nav class="navbar wow fadeInLeft" data-wow-offset="10">
+    <nav class="navbar wow fadeInDown" data-wow-offset="10">
       <div class="container" id="navigation-bar">
         <div class="navbar-header">
           <a class="navbar-brand" href="#">MY FOLIO</a>
         </div>
         <ul class="nav navbar-right">
-          <i class="fa fa-bars" aria-hidden="true"></i>
+          <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
         </ul>
+      </div>
+      <!-- Side Bar -->
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#blogs">Blogss</a>
+        <a href="#">Contact</a>
       </div>
 
       <div class="container" id="home">
         <h1>Hi, I'am Nikhil Prakash</h1>
-        <p>I'm a self taught computer programmer who<br> loves to code, test, debug and creat.</p>
+        <p>I'm a self taught computer programmer who<br> loves to code, test, debug and create.</p>
         <div class="text-center">
           <button type="button" class="btn btn-primary ">DOWNLOAD CV</button>
         </div>
@@ -38,12 +48,13 @@
       </div>
     </nav>
 
-    <section id="about" class="wow fadeInDown" data-wow-duration="2s">
-      <div id="left">
+    <section id="about">
+      <div id="left" class="wow fadeInLeft" data-wow-duration="2s">
         <h4>ABOUT ME</h4>
         <h1>I DESIGN DIGITAL & <br> PRINT PRODUCTIONS</h1>
+        <hr>
       </div>
-      <div id="right">
+      <div id="right" class="wow fadeInRight" data-wow-duration="2s">
         <p>
            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -55,18 +66,58 @@
         	 <div class="skill-bar-percent">90%</div>
          </div>
          <div class="skillbar clearfix " data-percent="75%">
-        	 <div class="skillbar-title" style="background: #124e8c;"><span>Mathematics</span></div>
+        	 <div class="skillbar-title" style="background: #124e8c;"><span>Backend</span></div>
         	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
         	 <div class="skill-bar-percent">75%</div>
          </div>
-         <div class="skillbar clearfix " data-percent="70%">
+         <div class="skillbar clearfix " data-percent="80%">
+        	 <div class="skillbar-title" style="background: #124e8c;"><span>Algorithms</span></div>
+        	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
+        	 <div class="skill-bar-percent">80%</div>
+         </div>
+         <div class="skillbar clearfix " data-percent="65%">
         	 <div class="skillbar-title" style="background: #124e8c;"><span>Linux</span></div>
         	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
-        	 <div class="skill-bar-percent">70%</div>
+        	 <div class="skill-bar-percent">65%</div>
          </div>
        </div>
-       <button type="button" class="btn btn-primary">CHECK MY WORK</button>
+       <button type="button" class="btn btn-primary" onclick="#">CHECK MY WORK</button>
       </div>
+    </section>
+
+    <section id="projects">
+      <h2 class="text-center">Projects Undertaken</h2>
+      <hr>
+      <div class="projects-row-1 container">
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+        <div class="item">
+          <img src="img/1.png" alt="pepsi" height="230">
+          <div class="item-overlay top"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blogs">
+      
     </section>
 
     <script src="js/script.js"></script>
