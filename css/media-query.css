@@ -1,0 +1,115 @@
+@media only screen and (max-width: 600px) {
+  .navbar{
+    height: 40em;
+  }
+
+  #home>h1{
+    position: relative;
+    top: 5em;
+    font-size: 2.8em;
+    text-align: center;
+  }
+
+  #home>p{
+    position: relative;
+    top: 12em;
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  #home>div>button{
+    float: none;
+  }
+
+  .btn-circle{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #about{
+    flex-direction: column;
+  }
+
+  #left>h1{
+    font-size: 2em;
+  }
+
+  #right>p{
+    font-size: 1.4em;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    line-height: 1.2em;
+  }
+
+  #right>div{
+    position: relative;
+    left: 5%;
+  }
+
+  #right>button{
+    left: 10%;
+    margin-top: 8%;
+  }
+
+  #projects{
+    margin-top: 28em;
+  }
+
+  .contact-social{
+    display: none;
+  }
+
+  .contact-social-2{
+    background-color: rgb(19, 18, 18);
+    height: 50px;
+    display: block;
+    width: 100%;
+  }
+
+  /*.contact-social-2>p{
+    position: relative;
+    right: 100px;
+  }*/
+
+}
+
+@media only screen and (max-width: 400px){
+  #left>h1{
+    font-size: 1.7em;
+  }
+
+  #left>h4{
+    font-size: 1em;
+  }
+
+  #right>p{
+    font-size: 0.9em;
+    position: relative;
+    left: 10%;
+    width: 80%;
+  }
+
+  #right>div{
+    margin-top: 20%;
+  }
+
+  #right>button{
+    width: 11em;
+    left: 10%;
+    margin-top: 8%;
+  }
+
+  #projects{
+    margin-top: 15em;
+  }
+
+  #projects>h2{
+    font-size: 2.5em;
+  }
+
+  #projects>hr{
+    width: 20%;
+  }
+}
