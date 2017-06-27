@@ -92,7 +92,7 @@
   background: rgba(32, 89, 215, 0.83);
 }
 
-#home .btn-circle{
+.btn-circle{
   position: relative;
   left: 50%;
   top: 20em;
@@ -105,7 +105,7 @@
   border-radius: 15px;
 }
 
-#home .btn-lg{
+.btn-lg{
   width: 50px;
   height: 50px;
   padding: 10px 16px;
@@ -308,4 +308,36 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-bottom: 5em;
+}
+
+#blogs{
+  margin-top: 4em;
+  margin-bottom: 5em;
+}
+
+#blogs>h2{
+  font-size: 2.8em;
+}
+
+#blogs>hr{
+  height: 3px;
+  width: 10%;
+  height: 2px;
+  background: rgba(32, 89, 215, 0.83);
+  background: -webkit-linear-gradient(left, rgba(32, 89, 215, 0.83) , white);
+  background: -o-linear-gradient(right, rgba(32, 89, 215, 0.83), white);
+  background: -moz-linear-gradient(right, rgba(32, 89, 215, 0.83), white);
+  background: linear-gradient(to right, rgba(32, 89, 215, 0.83) , white);
+  margin-bottom: 4em;
+}
+
+.blog-card .description p:after{
+    background-color: rgba(32, 89, 215, 0.83);
+}
+
+.fa-angle-double-right{
+  padding-left: 5px;
+  font-weight: bolder;
+  font-size: 1.3em;
 }
