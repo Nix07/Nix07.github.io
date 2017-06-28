@@ -1,24 +1,27 @@
 @media only screen and (max-width: 600px) {
   .navbar{
-    height: 40em;
+    height: 100vh;
   }
 
   #home>h1{
     position: relative;
-    top: 5em;
-    font-size: 2.8em;
+    top: 30vh;
+    font-size: 6vh;
+    font-weight: bold;
     text-align: center;
   }
 
   #home>p{
     position: relative;
-    top: 12em;
-    font-size: 1.2em;
+    top: 28vh;
+    font-size: 3.5vh;
     text-align: center;
   }
 
   #home>div>button{
     float: none;
+    position: relative;
+    top: 33vh;
   }
 
   .btn-circle{
