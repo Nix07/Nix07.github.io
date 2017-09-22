@@ -1,256 +1,570 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en" class=" js rgba backgroundsize cssanimations cssgradients csstransforms fontface">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Nikhil Prakash | CodeMechanic</title>
+
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>CodeMechanic.me | Nikhil Prakash</title>
+    <meta name="description" content="Nikhil Prakash - Personal website">
+    <meta property="og:image" content="images/Anantha_Natarajan.png" />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/name.jpg">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="css/nojs.css">
 
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/media-query.css">
-    <link rel="stylesheet" href="./css/animate.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="/css/card.css">
-  </head>
-  <body>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/viewportchecker.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/pushy.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/particles.min.js"></script>
+                <script src="js/particles.js"></script>
 
-    <nav class="navbar wow fadeInDown" data-wow-offset="10">
-      <div class="container" id="navigation-bar">
-        <div class="navbar-header">
-          <a class="navbar-brand hvr-grow-shadow" href="#">MY FOLIO</a>
-        </div>
-        <ul class="nav navbar-right">
-          <i class="fa fa-bars hvr-grow-shadow" aria-hidden="true" onclick="openNav()"></i>
-        </ul>
-      </div>
-      <!-- Side Bar -->
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#blogs">Blogs</a>
-      </div>
+</head><style>
 
-      <div class="container" id="home">
-        <h1>Hi, I'am Nikhil Prakash</h1>
-        <p>I'm a self taught computer programmer who<br> loves to<span style="font-weight: bold;"> code, test, debug and create.</span></p>
-        <div class="text-center">
-          <button type="button" class="btn btn-primary hvr-grow-shadow" onclick="window.location.href = 'https://drive.google.com/file/d/0B8LYWWKd9DAWM2NOOUlMM0RlclE/view';">VIEW RESUME</button>
-        </div>
-        <a href="#about">
-          <button type="button" class="btn btn-primary btn-circle btn-lg animated infinite fadeInDown"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></button>
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.logos1 {
+  max-width:20%;
+  max-height:95px;
+  width: auto;
+  height: auto;
+  padding-right: 5%;
+}
+
+.logos2 {
+  max-width:23%;
+  max-height:75px;
+  width: auto;
+  height: auto;
+    padding-right: 5%;
+}
+.logos3{
+  max-width:20%;
+  max-height:50px;
+  width: auto;
+  height: auto;
+    padding-right: 5%;
+}
+.logos4 {
+  max-width:20%;
+  width: auto;
+  height: auto;
+  padding-right: 5%;
+}
+.logos5 {
+  max-width:12%;
+  width: auto;
+  height: auto;
+}
+.logos6 {
+  max-width:16%;
+  width: auto;
+  height: auto;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+    </style>
+    <body class="">
+    <div id="particles-js"></div>
+      <section class="navigation">
+  <a id="navicon" class="animated fadeInLeft closed menu-btn"></a>
+
+  <div id="" class="nav pushy pushy-left">
+    <ul>
+      <li>
+        <a class="introduction" href="#">
+          <i class="fa fa-angle-up"></i>Introduction
         </a>
-      </div>
-    </nav>
+      </li>
 
-    <section id="about">
-      <div id="left" class="wow fadeInLeft" data-wow-duration="2s">
-        <h4>ABOUT ME</h4>
-        <h1>I SOLVE PROBLEMS & <br>  CODE WEB APPLICATIONS</h1>
-        <hr>
-      </div>
-      <div id="right" class="wow fadeInRight" data-wow-duration="2s">
-        <p>
-          I am a self taught computer programmer who loves to code, test, debug and create.
-          I started coding when I was 15 and since then it has become an obsession for me.
-          I have always pushed myself to learn something new and exciting. But I believe learning is just beginning.
-          Rather implementing that skill to solve a problem or improve the solution, is much more important.
+      <li>
+        <a class="about" href="#">
+          <i class="fa fa-user"></i>Who I am
+        </a>
+      </li>
+
+      <li>
+        <a class="interests" href="#">
+          <i class="fa fa-code"></i>What I do
+        </a>
+      </li>
+
+      <li>
+        <a class="work" href="#">
+          <i class="fa fa-suitcase"></i>What I've done
+        </a>
+      </li>
+
+      <li>
+        <a class="contact" href="#">
+          <i class="fa fa-paper-plane"></i>Contact
+        </a>
+      </li>
+    </ul>
+
+    <div class="dash"></div>
+
+    <!-- <ul>
+    <li>
+        <a href="now/index.html"><i class="fa fa-file"></i>Now</a>
+      </li>
+      <li>
+        <a href="http://blog.ananth.co.in/"><i class="fa fa-book"></i>Blog</a>
+      </li>
+      <li>
+        <a href="resume/Anantha_Natarajan_S_Resume.pdf"><i class="fa fa-file"></i>Resume</a>
+      </li>
+    </ul> -->
+  </div>
+</section>
+
+<div class="site-overlay"></div>
+
+
+  <section id="introduction" class="bw">
+  <div class="small-nav nav">
+    <ul>
+      <li>
+        <a class="introduction" href="#introduction">Intro</a>
+      </li>
+
+      <li>
+        <a class="about" href="#about">About</a>
+      </li>
+
+      <li>
+        <a class="interests" href="#interests">Interests</a>
+      </li>
+
+      <li>
+        <a class="work" href="#work">Work</a>
+      </li>
+
+      <li>
+        <a class="contact" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="brand">
+
+    <h1 class="animated fadeInUp">Hello, I'm Nikhil</h1>
+    <h2 class="animated fadeInUp">I <span class="pulse">&hearts;</span> to code.</h2>
+  </div>
+
+  <div class="chevron animated fadeInUp">
+    <div>Scroll down</div>
+    <i class="flaticon-bottom4 down"></i>
+  </div>
+</section>`
+
+      <section id="about">
+  <div class="container">
+    <div class="col-md-12 center">
+      <img class="profile-pic" src="images/Nikhil_Prakash.jpg" height="250" style="border-radius: 25px;">
+
+      <h1>Hi there!</h1>
+
+      <div class="dash animated fadeIn" ></div>
+
+      <p class="concealed visible animated fadeInUp" >
+                    <p>My name is Nikhil. <a><i class="fa fa-volume-up" onclick="playaudio()" aria-hidden="true"></i></a> <br>Or more formally Nikhil Prakash</p>
+      <p class="padded">I'm a undergraduate student at <a href="http://rvce.edu.in" target="_blank"> RV College of Engineering</a> pursuing my Bachelor of Engineering in Telecommunication, but I spend most of my time coding.</p>
+
+         <p class="padded">I am a self taught computer programmer who loves to code, test, debug and create. I participate in programming contests and practice coding at <a href="https://www.hackerrank.com/Nikhil07prakash" target="_blank">HackerRank</a>
+           , make small projects and open source contributions at <a href="https://github.com/nix07" target="_blank">Github</a>, and hack on random stuff.
+	   I believe programs can have deep beauty and elegance, just like Bollywood songs.
+</font>
+            </p>
+      </p>
+
+
+      <!--p class="concealed visible animated fadeInUp">
+      </p-->
+      <br><br>
+       <div class="dash animated fadeIn"></div>
+       <h5>Places I've worked/interned at:</h5>
+       <p>
+           <img class="logos1" src="images/Hasura.png">
+
+           <img class="logos3" src="images/internshala.png">
+
+           <img class="logos2" src="images/Right.png" style="width: 30em">
        </p>
-       <div>
-         <div class="skillbar clearfix " data-percent="90%">
-        	 <div class="skillbar-title" style="background: #124e8c;"><span>Frontend</span></div>
-        	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
-        	 <div class="skill-bar-percent">90%</div>
-         </div>
-         <div class="skillbar clearfix " data-percent="75%">
-        	 <div class="skillbar-title" style="background: #124e8c;"><span>Backend</span></div>
-        	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
-        	 <div class="skill-bar-percent">75%</div>
-         </div>
-         <div class="skillbar clearfix " data-percent="80%">
-        	 <div class="skillbar-title" style="background: #124e8c;"><span>Algorithms</span></div>
-        	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
-        	 <div class="skill-bar-percent">80%</div>
-         </div>
-         <div class="skillbar clearfix " data-percent="65%">
-        	 <div class="skillbar-title" style="background: #124e8c;"><span>Linux</span></div>
-        	 <div class="skillbar-bar" style="background: rgba(32, 89, 215, 0.83);"></div>
-        	 <div class="skill-bar-percent">65%</div>
-         </div>
-       </div>
-       <a type="button" class="btn btn-primary hvr-grow-shadow" href="https://www.github.com/nix07">CHECK MY WORK</a>
-      </div>
-    </section>
 
-    <section id="projects">
-      <h2 class="text-center">Projects Undertaken</h2>
-      <hr>
-      <div class="projects-row-1 container">
-        <div class="item hvr-grow-shadow">
-          <img src="img/img1.png" alt="pepsi" height="230">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Photo Gallery Web Application</span></figcaption>
-        </div>
-        <div class="item hvr-grow-shadow">
-          <img src="img/img2.png" alt="pepsi" height="230" width="400">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Restaurant Application</span></figcaption>
-        </div>
-        <div class="item hvr-grow-shadow">
-          <img src="img/img3.png" alt="pepsi" height="230">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Blogging Website</span></figcaption>
-        </div>
-        <div class="item hvr-grow-shadow">
-          <img src="img/img6.png" alt="pepsi" height="230">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Personal Website</span></figcaption>
-        </div>
-        <div class="item hvr-grow-shadow">
-          <img src="img/img5.png" alt="pepsi" height="230" class="">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Tic Tac Toe Game</span></figcaption>
-        </div>
-        <div class="item hvr-grow-shadow">
-          <img src="img/img4.png" alt="pepsi" height="230">
-          <div class="item-overlay top"></div>
-          <figcaption class="figure-caption text-center" style="text-align: center"><span style="font-weight: bold;">Todo App</span></figcaption>
-        </div>
-      </div>
-    </section>
+       <div class="dash animated fadeIn"></div>
 
-    <section id="blogs">
-      <h2 class="text-center">Recent Blogs</h2>
-      <hr>
-      <div style="display: flex; justify-content: space-around;">
-        <div class="blog-card">
-        	<div class="photo photo1"></div>
-        	<ul class="details">
-        		<li class="author"><a href="#">Nikhil Prakash</a></li>
-        		<li class="date">8 July, 2017</li>
-        		<li class="tags">
-        			<ul>
-        				<li><a href="">Hasura</a></li>
-        				<li><a href="">Landing Page</a></li>
-        				<li><a href="">AngularJS</a></li>
-        			</ul>
-        		</li>
-        	</ul>
-        	<div class="description">
-        		<h1>Internship at Hasura — 4.1</h1>
-        		<h2> App Screen 1 (UI + Backend integration)</h2>
-        		<p class="summary">This is the fourth week of the internship and the time has come to code up our Restaurant App using Hasura APIs and other web technologies.</p>
-        		<a href="https://medium.com/@nikhil07prakash/internship-at-hasura-4-1-4b2da90c0efd" style="color: rgba(32, 89, 215, 0.83)">Read More</a>
-        	</div>
+
+</section>
+
+      <section id="interests">
+  <div class="container">
+
+    <h1 class="tabloid">What I do</h1>
+
+    <div class="row">
+      <div class="concealed visible animated fadeInUp">
+        <div class="flaticon">
+          <i class="flaticon-codings1"></i>
         </div>
-        <div class="blog-card alt">
-        	<div class="photo photo3"></div>
-        	<ul class="details">
-        		<li class="author"><a href="#">Nikhil Prakash</a></li>
-        		<li class="date">24 June, 2017</li>
-        		<li class="tags">
-        			<ul>
-        				<li><a href="">Number Theory</a></li>
-        				<li><a href="">Modular Theory</a></li>
-        				<li><a href="">ISBN</a></li>
-        			</ul>
-        		</li>
-        	</ul>
-        	<div class="description">
-        		<h1>Real World Applications of Modular Theory</h1>
-        		<h2>A Mathematical Eye</h2>
-        		<p class="summary">In some situations, we are only interested in the remainder of an integer when it is divided by a positive integer.For instance, when we are asked what time it will be after 40.</p>
-        		<a href="https://medium.com/@nikhil07prakash/real-world-applications-of-modular-theory-654f25d1a8" style="color: rgba(32, 89, 215, 0.83)">Read More</a>
-        	</div>
+
+        <h3>Development</h3>
+
+        <div class="dash"></div>
+                        <p class="light">
+                          <p> Programming Languages: C++, C, Javascript, Shell</p>
+                           <p>Web Technologies: HTML, CSS, Bootstrap, jquery, AngularJS, Git, Node</p>
+                          <div >
+                                          <p>
+                I've worked with <font color="red"><span class="element"></span></font>
+            </p>
+          </div>
+
+        <div class="dash"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column col-md-6 concealed visible animated fadeInUp">
+        <div class="flaticon">
+          <i class="flaticon-bulb11"></i>
         </div>
+
+        <h3>Open source</h3>
+
+        <div class="dash"></div>
+
+        <p>
+          Even though I am not a professional open source contributor, I <span class="heart"></span> open source and everything about it to its very nature.
+          I have contributed to a few open source projects like OPPIA and TEAMMATES.
+        </p>
+
+        <div class="dash"></div>
       </div>
 
-      <div style="display: flex; justify-content: space-around;">
-        <div class="blog-card">
-        	<div class="photo photo4"></div>
-        	<ul class="details">
-        		<li class="author"><a href="#">Nikhil Prakash</a></li>
-        		<li class="date">26 June, 2017</li>
-        		<li class="tags">
-        			<ul>
-        				<li><a href="">JavaScript</a></li>
-        				<li><a href="">Http Request</a></li>
-        				<li><a href="">Hasura</a></li>
-        			</ul>
-        		</li>
-        	</ul>
-        	<div class="description">
-        		<h1>Internship at Hasura — 3.3</h1>
-        		<h2>Hasura Auth API</h2>
-        		<p class="summary">Hasura Auth is an HTTP API for authentication, authorization and for creating and managing Hasura identities. Each identity is also assigned a role.You can tie these identities.</p>
-        		<a href="https://medium.com/@nikhil07prakash/internship-at-hasura-3-3-2ae54bac1c3c" style="color: rgba(32, 89, 215, 0.83)">Read More</a>
-        	</div>
+      <div class="column col-md-6 concealed visible animated fadeInUp">
+        <div class="flaticon">
+          <i class="flaticon-globe14"></i>
         </div>
-        <div class="blog-card alt">
-        	<div class="photo photo2"></div>
-        	<ul class="details">
-        		<li class="author"><a href="#">Nikhil Prakash</a></li>
-        		<li class="date">26 June, 2017</li>
-        		<li class="tags">
-        			<ul>
-        				<li><a href="">Hasura</a></li>
-        				<li><a href="">PostgreSQL</a></li>
-        				<li><a href="">API</a></li>
-        			</ul>
-        		</li>
-        	</ul>
-        	<div class="description">
-        		<h1>Internship at Hasura — 3.2</h1>
-        		<h2>Hasura Data API</h2>
-        		<p class="summary">Hasura Data API is a service that is provided in all Hasura projects by default. The data service on Hasura exposes an HTTP/JSON API over a PostgreSQL.</p>
-        		<a href="https://medium.com/@nikhil07prakash/internship-at-hasura-3-2-c6fe8fdacc0c" style="color: rgba(32, 89, 215, 0.83)">Read More</a>
-        	</div>
-        </div>
-      </div>
-      <a href="https://medium.com/@nikhil07prakash/">
-        <button class="btn btn-default pull-right" style="margin-right: 4em;height: 3em;">View All Blogs
-          <i class="fa fa-angle-double-right animated infinite fadeInLeft" aria-hidden="true"></i>
-        </button>
-      </a>
-    </section>
 
-    <section id="contact">
-      <div class="contact-social">
-        <div style="display: flex; width: 70%">
-          <a href="https://www.facebook.com/nix.prakash" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-facebook " aria-hidden="true" style="position: relative; left: 1em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-          <a href="https://github.com/nix07" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-github" aria-hidden="true" style="position: relative; left: 0.8em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-          <a href="https://twitter.com/nikhil07prakash" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-twitter" aria-hidden="true" style="position: relative; left: 0.8em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-          <a href="https://plus.google.com/114705092685737310752" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-google-plus" aria-hidden="true" style="position: relative; left: 0.8em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-          <a href="https://medium.com/@nikhil07prakash/" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-medium" aria-hidden="true" style="position: relative; left: 0.8em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/nikhil-prakash-249b2874/" class="square sqr1 hvr-back-pulse" style="margin-right: 15px; position: relative; left: 45%;">
-            <i class="fa fa-linkedin" aria-hidden="true" style="position: relative; left: 0.8em; font-size: 2.5em; color: white;top: 0.7em;"></i>
-          </a>
-        </div>
-        <p>Made with <i class='fa fa-heart animated infinite pulse'></i> by Nikhil Prakash</p>
-      </div>
-      <div class="contact-social-2">
-        <p style="margin-left: 40%">Made with <i class='fa fa-heart animated infinite pulse'></i> by Nikhil Prakash</p>
-      </div>
-    </section>
+        <h3>The World</h3>
 
-    <script src="js/script.js"></script>
-    <script src="js/wow.min.js"></script>
+        <div class="dash"></div>
+
+        <p>
+          I'm <a href="https://www.16personalities.com/intp-personality">INTP-A</a>.
+          Besides coding, playing Table Tennis, reading books and playing Counter Strike I do my utmost best to change the world around me.
+        </p>
+
+        <div class="dash"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+      <section id="work">
+  <div class="container">
+    <h1>Projects</h1>
+
+    <div class="left col-md-8">
+        <h3>Search Github Users</h3>
+        <div class="padded">
+        	This is a useful Github Searching Web App. It gives the live search results, i.e profile of the user, repositories, followers etc.
+        	<br>
+        	<a href="https://github.com/Nix07/searchGithub">https://github.com/Nix07/searchGithub</a>
+	      </div>
+	      <br>
+        <h3>Twitter Bot</h3>
+        <div class="padded">
+        	This is node.js web server application which response to different streams of my twitter account, like post a tweet when someone follows me etc.
+        	<br>
+        	<a href="https://github.com/Nix07/Twitter-Bot">https://github.com/Nix07/Twitter-Bot</a>
+        </div>
+        <br>
+        <h3>Tie-Tac-Toe Game</h3>
+        <div class="padded">
+        This is a simple yet interesting Web based Tic-Tac-Toe game. I have used HTML5 and CSS3 for its UI and jQuery for the logic.
+        <br>
+        <a href="https://github.com/Nix07/Tie-Tac-Toe">https://github.com/Nix07/Tie-Tac-Toe</a>
+        <br>
+        <a href="http://tie-tac-toe.herokuapp.com">http://tie-tac-toe.herokuapp.com</a>
+        </div>
+        <br>
+        <h3>Restaurant App</h3>
+        <div class="padded">
+        	This is a web based restaurant application. I have used AngularJS and Bootstrap to build different functionalities like Signup, Favourite Items etc.
+        	<br>
+        	<a href="https://github.com/Nix07/Restaurant-App">https://github.com/Nix07/Restaurant-App</a>
+          <br>
+        	<a href="http://codemechanic.me/Restaurant-App/">http://codemechanic.me/Restaurant-App/</a>
+        </div>
+    </div>
+
+    <div class="right col-md-4">
+      <h2>Skills</h2>
+      <div class="bars">
+        <div class="bar concealed visible animated fadeInRight">C/C++</div>
+        <div class="bar concealed visible animated fadeInRight">HTML5, CSS3</div>
+        <div class="bar concealed visible animated fadeInRight">Boostrap</div>
+        <div class="bar concealed visible animated fadeInRight">Javascript</div>
+        <div class="bar concealed visible animated fadeInRight">Jquery</div>
+        <div class="bar concealed visible animated fadeInRight">AngularJS</div>
+        <div class="bar concealed visible animated fadeInRight">NodeJS</div>
+        <div class="bar concealed visible animated fadeInRight">Google Developer Tools</div>
+        <div class="bar concealed visible animated fadeInRight">Git</div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+  </div>
+</section>
+
+      <section id="contact">
+  <div class="container">
+    <div class="paperplane concealed visible animated bounceInDown"><i class="flaticon-paper41"></i></div>
+
+    <h1>Are you interested <div>?</div></h1>
+    <p>Whether you have an interesting project or
+    just want to say hi, feel free to shoot me a message.</p>
+
+    <a class="contact" href="mailto:nikhil07prakash@gmail.com">
+      Say Hi!<i class="flaticon-speech39"></i>
+    </a>
+  </div>
+  <br><br>
+       <div class="dash animated fadeIn"></div>
+       <br><br>
+     <div>
+
+          <h1>Here's my resumé</h1>
+          <p>
+          <a class="contact" href="resume/Nikhil_Prakash.pdf">
+            Resumé<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+          </a>
+      </p>
+  </div>
+</section>
+
+  <section id="footer">
+  <div class="container">
+    <h3>Stalk me!</h3>
+
+    <ul>
+      <li class="email">
+        <a href="https://medium.com/@nikhil07prakash">
+          <i class="fa fa-pencil"></i>
+          <p>
+              Medium
+          </p>
+        </a>
+      </li>
+      <li class="linkedin">
+        <a href="https://www.linkedin.com/in/nikhil-prakash-249b2874/">
+          <i class="fa fa-linkedin"></i>
+          <p>Linkedin</p>
+        </a>
+      </li>
+      <li class="github">
+        <a href="https://github.com/nix07">
+          <i class="fa fa-github"></i>
+          <p>GitHub</p>
+        </a>
+      </li>
+
+      <li class="twitter">
+        <a href="https://twitter.com/nikhil07prakash">
+          <i class="fa fa-twitter"></i>
+          <p>Twitter</p>
+        </a>
+      </li>
+
+      <li class="facebook">
+        <a href="https://www.facebook.com/nix.prakash">
+          <i class="fa fa-facebook"></i>
+          <p>Facebook</p>
+        </a>
+      </li>
+    </ul>
+
+    <div class="license">
+      2017  Nikhil Prakash
+        <br/>
+      Made with HTML,CSS, Bootstrap, Font Awesome and lots of &hearts;
+    </div>
+
+
+  </div>
+</section>
     <script>
-      new WOW().init();
+	  $(function(){
+	      $(".element").typed({
+	        strings: ["C/C++","Javascript","AngularJS","NodeJS","ExpressJS","Jasmine","Google Dev Tools"],
+	        typeSpeed: 0,
+    		// time before typing starts
+			startDelay: 2,
+			// backspacing speed
+			backSpeed: 0,
+			// time before backspacing
+			backDelay: 1500,
+			// loop
+			loop: true,
+			// false = infinite
+			loopCount: false,
+			// show cursor
+			showCursor: true,
+			// character for cursor
+			cursorChar: "|",
+
+	      });
+	  });
     </script>
-  </body>
+<script type="text/javascript">
+    function playaudio(){
+        var snd = new Audio("Nikhil.mp3");
+        snd.currentTime=0;
+        snd.play();
+    }
+</script>
+
+<script type="text/javascript">
+  /* ---- particles.js config ---- */
+
+particlesJS("particles-js", {
+  "particles": {
+    "number": {
+      "value": 80,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#ffffff"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.5,
+      "random": false,
+      "anim": {
+        "enable": false,
+        "speed": 1,
+        "opacity_min": 0.1,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 40,
+        "size_min": 0.1,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 6,
+      "direction": "none",
+      "random": false,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "grab"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "push"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 140,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 400,
+        "size": 40,
+        "duration": 2,
+        "opacity": 8,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 200,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+
 </html>
