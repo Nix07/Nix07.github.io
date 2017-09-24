@@ -3,7 +3,7 @@
 .navbar-collapse { box-shadow: none; }
 
 @media only screen and (max-width: 930px) { #interests .row .column { border-left: none; } }
-@media only screen and (max-width: 750px) { .brand h1 { letter-spacing: 8px; }
+@media only screen { .brand h1 { letter-spacing: 8px; }
   #top .chevron .down { font-size: 12px; }
   .small-nav { display: block; }
   .navigation { display: none; }
