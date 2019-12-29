@@ -2,7 +2,7 @@
 
 Ripped shamelessly from Tony Tang's site (https://github.com/hcitang/hcitang.github.io)
 
-Here's his readme:
+Here's Tony Tang's readme:
 
 Ripped shamelessly from Jordi Pont-Tuset's site (https://github.com/jponttuset/jponttuset.github.io)
 
