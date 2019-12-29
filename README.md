@@ -1,4 +1,8 @@
-# Tony Tang's academic website
+# Nikhil Prakash's academic website
+
+Ripped shamelessly from Tony Tang's site (https://github.com/hcitang/hcitang.github.io)
+
+Here's his readme:
 
 Ripped shamelessly from Jordi Pont-Tuset's site (https://github.com/jponttuset/jponttuset.github.io)
 
