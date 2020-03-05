@@ -13,4 +13,4 @@ Recently, I have been focusing on data-driven interactive systems that support i
 
 In my spare time, I enjoy watching movies, TV series, and Anime (big fan of [Naruto](https://en.wikipedia.org/wiki/Naruto) だってばよ!), and playing table tennis.
 
-<span style="color:red">**I am currently looking for research assistantship and long-term internship (6-12 months) opportunities.**</span>
+<!-- <span style="color:red">**I am currently looking for research assistantship and long-term internship (6-12 months) opportunities.**</span> -->
