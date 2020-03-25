@@ -8,7 +8,7 @@ I am a senior undergraduate student at the [RV College of Engineering, Bangalore
 
 I am broadly interested to explore the domain of **Human-AI Interaction** or **Human-Centered Machine Learning**, ie. the entire spectrum of human interaction with machine intelligence, from making AI accessible for everyone to understanding the impact of AI in human lives as well as building **data-driven interactive systems**, by combining machine and human intelligence, that support **interaction at scale** for solving social-computational problems. 
 
-Apart from these topics, I am also interested in **Computational Social Science** and **Data Science**, specifically in understanding and modeling human behavior in technological systems such as **online social networks**. And I am always open to new exciting research problems in other related domains! 
+Apart from these topics, I am also interested in **Computational Social Science** and **Data Science**, specifically in understanding and modeling human behavior in technological systems such as **online social networks** and **Wikipedia**. And I am always open to new exciting research problems in other related domains! 
 
 In my spare time, I enjoy watching movies, TV series, and Anime (big fan of [Naruto](https://en.wikipedia.org/wiki/Naruto) だってばよ!), and playing table tennis.
 
