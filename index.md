@@ -15,4 +15,4 @@ Apart from these topics, I am also interested in **Computational Social Science*
 
 In my spare time, I enjoy watching movies, documentaries, and Anime (big fan of [Naruto](https://en.wikipedia.org/wiki/Naruto) だってばよ!), as well as playing chess and table tennis.
 
-<!-- <span style="color:red">**I am currently looking for a research assistantship, research engineer, and any other long-term (6-12 months) research-based opportunities.**</span> -->
+<span style="color:red">**I am currently looking for a research assistantship, research engineer, and any other long-term (6-12 months) research-based opportunities.**</span>
