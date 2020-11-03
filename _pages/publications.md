@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 ---
-* **Nikhil Prakash** and Kory W. Mathewson. "Conceptualization and Framework of Hybrid Intelligence Systems", <em>Human And Machine in-the-Loop Evaluation and Learning Strategies Workshop, NeurIPS 2020</em>. (Under Review)
+* **Nikhil Prakash** and Kory W. Mathewson. "Conceptualization and Framework of Hybrid Intelligence Systems", <em>HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) Workshop, NeurIPS 2020</em>.
 
 <!-- * Camelia Simoiu, Chiraag Sumanth, Alok Mysore, Sharad Goel. "Studying the Wisdom of Crowds at Scale", HCOMP 2019, Washington, USA. **(Acknowledged)** -->
 
