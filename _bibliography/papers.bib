@@ -1,6 +1,37 @@
 ---
 ---
 
+@misc{davies2023discovering,
+  title={Discovering Variable Binding Circuitry with Desiderata}, 
+  author={Xander Davies and Max Nadeau and Nikhil Prakash and Tamar Rott Shaham and David Bau},
+  year={2023},
+  eprint={2307.03637},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  abbr={ICML},
+  pdf={variable_binding.pdf},
+  abstract = {Recent work has shown that computation in language models may be human-understandable, with successful efforts to localize and intervene on both single-unit features and input-output circuits. Here, we introduce an approach which extends causal mediation experiments to automatically identify model components responsible for performing a specific subtask by solely specifying a set of \textit{desiderata}, or causal attributes of the model components executing that subtask. As a proof of concept, we apply our method to automatically discover shared \textit{variable binding circuitry} in LLaMA-13B, which retrieves variable values for multiple arithmetic tasks. Our method successfully localizes variable binding to only 9 attention heads (of the 1.6k) and one MLP in the final token's residual stream.},
+}
+
+@inproceedings{10.1145/3581641.3584039,
+author = {Nouri, Zahra and Prakash, Nikhil and Gadiraju, Ujwal and Wachsmuth, Henning},
+title = {Supporting Requesters in Writing Clear Crowdsourcing Task Descriptions Through Computational Flaw Assessment},
+year = {2023},
+isbn = {9798400701061},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3581641.3584039},
+doi = {10.1145/3581641.3584039},
+abstract = {Quality control is an, if not the, essential challenge in crowdsourcing. Unsatisfactory responses from crowd workers have been found to particularly result from ambiguous and incomplete task descriptions, often from inexperienced task requesters. However, creating clear task descriptions with sufficient information is a complex process for requesters in crowdsourcing marketplaces. In this paper, we investigate the extent to which requesters can be supported effectively in this process through computational techniques. To this end, we developed a tool that enables requesters to iteratively identify and correct eight common clarity flaws in their task descriptions before deployment on the platform. The tool can be used to write task descriptions from scratch or to assess and improve the clarity of prepared descriptions. It employs machine learning-based natural language processing models trained on real-world task descriptions that score a given task description for the eight clarity flaws. On this basis, the requester can iteratively revise and reassess the task description until it reaches a sufficient level of clarity. In a first user study, we let requesters create task descriptions using the tool and rate the tool’s different aspects of helpfulness thereafter. We then carried out a second user study with crowd workers, as those who are confronted with such descriptions in practice, to rate the clarity of the created task descriptions. According to our results, 65\% of the requesters classified the helpfulness of the information provided by the tool high or very high (only 12\% as low or very low). The requesters saw some room for improvement though, for example, concerning the display of bad examples. Nevertheless, 76\% of the crowd workers believe that the overall clarity of the task descriptions created by the requesters using the tool improves over the initial version. In line with this, the automatically-computed clarity scores of the edited task descriptions were generally higher than those of the initial descriptions, indicating that the tool reliably predicts the clarity of task descriptions in overall terms.},
+booktitle = {Proceedings of the 28th International Conference on Intelligent User Interfaces},
+pages = {737–749},
+numpages = {13},
+location = {Sydney, NSW, Australia},
+series = {IUI '23},
+abbr={IUI},
+pdf={Supporting_requestors.pdf},
+}
+
 @INPROCEEDINGS{iClarify,
   title={iClarify – A Tool to Help Requesters Iteratively Improve Task Descriptions in Crowdsourcing},
   author={Nouri, Zahra and Prakash, Nikhil and Gadiraju, Ujwal and Wachsmuth, Henning},
