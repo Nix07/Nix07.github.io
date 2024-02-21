@@ -13,7 +13,7 @@
   booktitle={International Conference on Learning Representations (ICLR)},
   abstract = {Fine-tuning on generalized tasks such as instruction following, code generation, and mathematics has been shown to enhance language models' performance on a range of tasks. Nevertheless, explanations of how such fine-tuning influences the internal computations in these models remain elusive. We study how fine-tuning affects the internal mechanisms implemented in language models. As a case study, we explore the property of entity tracking, a crucial facet of language comprehension, where models fine-tuned on mathematics have substantial performance gains. We identify a mechanism that enables entity tracking and show that (i) both the original model and its fine-tuned version implement entity tracking with the same circuit. In fact, the entity tracking circuit of the fine-tuned version performs better than the full original model. (ii) The circuits of all the models implement roughly the same functionality, that is entity tracking is performed by tracking the position of the correct entity in both the original model and its fine-tuned version. (iii) Performance boost in the fine-tuned model is primarily attributed to its improved ability to handle positional information. To uncover these findings, we employ two methods: DCM, which automatically detects model components responsible for specific semantics, and CMAP, a new approach for patching activations across models to reveal improved mechanisms. Our findings suggest that fine-tuning enhances, rather than fundamentally alters, the mechanistic operation of the model.},
   selected={true},
-  website={https://finetuning.baulab.info/}
+  website={https://finetuning.baulab.info/},
 }
 
 @misc{davies2023discovering,
@@ -29,7 +29,15 @@
   abstract = {Recent work has shown that computation in language models may be human-understandable, with successful efforts to localize and intervene on both single-unit features and input-output circuits. Here, we introduce an approach which extends causal mediation experiments to automatically identify model components responsible for performing a specific subtask by solely specifying a set of \textit{desiderata}, or causal attributes of the model components executing that subtask. As a proof of concept, we apply our method to automatically discover shared \textit{variable binding circuitry} in LLaMA-13B, which retrieves variable values for multiple arithmetic tasks. Our method successfully localizes variable binding to only 9 attention heads (of the 1.6k) and one MLP in the final token's residual stream.},
   selected={true},
   website={https://dcm.baulab.info/},
-  arxiv={2307.03637}
+  arxiv={2307.03637},
+  bibtex_show={true},
+  bibtex={
+@article\{davies2023discovering,
+  title=\{Discovering Variable Binding Circuitry with Desiderata\},
+  author=\{Davies, Xander and Max Nadeau and Nikhil Prakash and Tamar Rott Shaham and David Bau\},
+  journal=\{arXiv preprint arXiv:2307.03637\},
+  year=\{2023\}
+\}},
 }
 
 @inproceedings{10.1145/3581641.3584039,
@@ -51,6 +59,21 @@ numpages = {13},
 location = {Sydney, NSW, Australia},
 series = {IUI '23},
 pdf={Supporting_requestors.pdf},
+bibtex_show={true},
+bibtex={@inproceedings\{10.1145/3581641.3584039,
+author = \{Nouri, Zahra and Prakash, Nikhil and Gadiraju, Ujwal and Wachsmuth, Henning\},
+title = \{Supporting Requesters in Writing Clear Crowdsourcing Task Descriptions Through Computational Flaw Assessment\},
+year = \{2023\},
+isbn = \{9798400701061\},
+publisher = \{Association for Computing Machinery\},
+address = \{New York, NY, USA\},
+url = \{https://doi.org/10.1145/3581641.3584039\},
+doi = \{10.1145/3581641.3584039\},
+pages = \{737–749\},
+numpages = \{13\},
+location = \{Sydney, NSW, Australia\},
+series = \{IUI '23\}
+\}}
 }
 
 @INPROCEEDINGS{iClarify,
@@ -72,9 +95,19 @@ pdf={Supporting_requestors.pdf},
   booktitle={HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) Workshop, Neural Information Processing Systems (NeurIPS)},
   year={2020},
   abstract={As artificial intelligence (AI) systems are getting ubiquitous within our society, issues related to its fairness, accountability, and transparency are increasing rapidly. As a result, researchers are integrating humans with AI systems to build robust and reliable hybrid intelligence systems. However, a proper conceptualization of these systems does not underpin this rapid growth. This article provides a precise definition of hybrid intelligence systems as well as explains its relation with other similar concepts through our proposed framework and examples from contemporary literature. The framework breakdowns the relationship between a human and a machine in terms of the degree of coupling and the directive authority of each party. Finally, we argue that all AI systems are hybrid intelligence systems, so human factors need to be examined at every stage of such systems' lifecycle.},
-  arxiv={https://arxiv.org/abs/2012.06161},
+  arxiv={2012.06161},
   abbr={NeurIPS},
   teaser={neurips20.png},
+  type={inproceedings},
+  bibtex_show={true},
+  bibtex={@misc\{prakash2020conceptualization,
+      title=\{Conceptualization and Framework of Hybrid Intelligence Systems\}, 
+      author=\{Nikhil Prakash and Kory W. Mathewson\},
+      year=\{2020\},
+      eprint=\{2012.06161\},
+      archivePrefix=\{arXiv\},
+      primaryClass=\{cs.AI\}
+\}}
 }
 
 @INPROCEEDINGS{8711403,
@@ -86,4 +119,15 @@ pdf={Supporting_requestors.pdf},
   pdf={grid_model.pdf},
   abbr={COMSNETS},
   teaser={comsnets19.png},
+  type={inproceedings},
+  bibtex_show={true},
+  bibtex={@INPROCEEDINGS\{8711403,
+  author=\{Verma, Amit Kumar and Prakash, Nikhil\},
+  booktitle=\{2019 11th International Conference on Communication Systems & Networks (COMSNETS)\}, 
+  title=\{A Grid-based Model for Generating Scale-Free Networks\}, 
+  year=\{2019\},
+  pages=\{732-736\},
+  keywords=\{Mathematical model;Spirals;Social networking (online);Euclidean distance;Collaboration;Random processes;Communication systems;Scale-free networks;Power law;Degree distribution;Erdös collaboration network\},
+  doi=\{10.1109/COMSNETS.2019.8711403\}
+\}}
 }
