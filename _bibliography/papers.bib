@@ -1,16 +1,35 @@
 ---
 ---
 
+@misc{prakash2024finetuning,
+  title={Fine-Tuning Enhances Existing Mechanisms: A Case Study on Entity Tracking}, 
+  author={Nikhil Prakash and Tamar Rott Shaham and Tal Haklay and Yonatan Belinkov and David Bau},
+  year={2024},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  teaser={iclr24.png},
+  abbr={ICLR},
+  type={inproceedings},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  abstract = {Fine-tuning on generalized tasks such as instruction following, code generation, and mathematics has been shown to enhance language models' performance on a range of tasks. Nevertheless, explanations of how such fine-tuning influences the internal computations in these models remain elusive. We study how fine-tuning affects the internal mechanisms implemented in language models. As a case study, we explore the property of entity tracking, a crucial facet of language comprehension, where models fine-tuned on mathematics have substantial performance gains. We identify a mechanism that enables entity tracking and show that (i) both the original model and its fine-tuned version implement entity tracking with the same circuit. In fact, the entity tracking circuit of the fine-tuned version performs better than the full original model. (ii) The circuits of all the models implement roughly the same functionality, that is entity tracking is performed by tracking the position of the correct entity in both the original model and its fine-tuned version. (iii) Performance boost in the fine-tuned model is primarily attributed to its improved ability to handle positional information. To uncover these findings, we employ two methods: DCM, which automatically detects model components responsible for specific semantics, and CMAP, a new approach for patching activations across models to reveal improved mechanisms. Our findings suggest that fine-tuning enhances, rather than fundamentally alters, the mechanistic operation of the model.},
+  selected={true},
+  website={https://finetuning.baulab.info/}
+}
+
 @misc{davies2023discovering,
   title={Discovering Variable Binding Circuitry with Desiderata}, 
   author={Xander Davies and Max Nadeau and Nikhil Prakash and Tamar Rott Shaham and David Bau},
   year={2023},
-  eprint={2307.03637},
   archivePrefix={arXiv},
   primaryClass={cs.AI},
+  teaser={icml23.png},
   abbr={ICML},
-  pdf={variable_binding.pdf},
+  type={inproceedings},
+  booktitle={Challenges in Deployable Generative AI Workshop, International Conference on Machine Learning (ICML)},
   abstract = {Recent work has shown that computation in language models may be human-understandable, with successful efforts to localize and intervene on both single-unit features and input-output circuits. Here, we introduce an approach which extends causal mediation experiments to automatically identify model components responsible for performing a specific subtask by solely specifying a set of \textit{desiderata}, or causal attributes of the model components executing that subtask. As a proof of concept, we apply our method to automatically discover shared \textit{variable binding circuitry} in LLaMA-13B, which retrieves variable values for multiple arithmetic tasks. Our method successfully localizes variable binding to only 9 attention heads (of the 1.6k) and one MLP in the final token's residual stream.},
+  selected={true},
+  website={https://dcm.baulab.info/},
+  arxiv={2307.03637}
 }
 
 @inproceedings{10.1145/3581641.3584039,
@@ -22,24 +41,29 @@ publisher = {Association for Computing Machinery},
 address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3581641.3584039},
 doi = {10.1145/3581641.3584039},
+teaser={iui23.png},
+abbr={IUI},
+type={inproceedings},
 abstract = {Quality control is an, if not the, essential challenge in crowdsourcing. Unsatisfactory responses from crowd workers have been found to particularly result from ambiguous and incomplete task descriptions, often from inexperienced task requesters. However, creating clear task descriptions with sufficient information is a complex process for requesters in crowdsourcing marketplaces. In this paper, we investigate the extent to which requesters can be supported effectively in this process through computational techniques. To this end, we developed a tool that enables requesters to iteratively identify and correct eight common clarity flaws in their task descriptions before deployment on the platform. The tool can be used to write task descriptions from scratch or to assess and improve the clarity of prepared descriptions. It employs machine learning-based natural language processing models trained on real-world task descriptions that score a given task description for the eight clarity flaws. On this basis, the requester can iteratively revise and reassess the task description until it reaches a sufficient level of clarity. In a first user study, we let requesters create task descriptions using the tool and rate the tool’s different aspects of helpfulness thereafter. We then carried out a second user study with crowd workers, as those who are confronted with such descriptions in practice, to rate the clarity of the created task descriptions. According to our results, 65\% of the requesters classified the helpfulness of the information provided by the tool high or very high (only 12\% as low or very low). The requesters saw some room for improvement though, for example, concerning the display of bad examples. Nevertheless, 76\% of the crowd workers believe that the overall clarity of the task descriptions created by the requesters using the tool improves over the initial version. In line with this, the automatically-computed clarity scores of the edited task descriptions were generally higher than those of the initial descriptions, indicating that the tool reliably predicts the clarity of task descriptions in overall terms.},
 booktitle = {Proceedings of the 28th International Conference on Intelligent User Interfaces},
-pages = {737–749},
+pages = {737-749},
 numpages = {13},
 location = {Sydney, NSW, Australia},
 series = {IUI '23},
-abbr={IUI},
 pdf={Supporting_requestors.pdf},
 }
 
 @INPROCEEDINGS{iClarify,
   title={iClarify – A Tool to Help Requesters Iteratively Improve Task Descriptions in Crowdsourcing},
   author={Nouri, Zahra and Prakash, Nikhil and Gadiraju, Ujwal and Wachsmuth, Henning},
-  booktitle={Work-In-Progress and Demonstration track, Ninth AAAI Conference on Human Computation and Crowdsourcing (HCOMP)},
   year={2021},
   abstract={Quality control and assurance are among the most important challenges in crowdsourcing. Low quality and sub-optimalresponses from crowdworkers have been found to often result from unclear or incomplete task descriptions, especially from novice or inexperienced task requesters. Creating clear task descriptions with adequate information however, is a complex task for requesters in crowdsourcing marketplaces. To meet this challenge, we present iClarify, a tool that enables requesters to iteratively discover and revise eight common clarity flaws in their task description before deployment on the platform. A requester can use iClarify to formulate a task description from scratch or also to evaluate the clarity of prepared descriptions. The tool employs support vector regression models based on various feature types that were trained on 1332 annotated real-world task descriptions. Using these models, it scores the task description with respect to the eight flaws, and the requester can iteratively edit and evaluate the description until the scores shown by the tool reach a satisfactory level of clarity. We are currently conducting a usability study with both requesters and crowdworkers to assess to which extent the tool is effective in improving task clarity},
   pdf={iClarify.pdf},
-  abbr={HCOMP}
+  abbr={HCOMP},
+  teaser={hcomp21.png},
+  abbr={HCOMP},
+  type={inproceedings},
+  booktitle={Work-In-Progress and Demonstration track, Ninth AAAI Conference on Human Computation},
 }
 
 @INPROCEEDINGS{prakash2020conceptualization,
@@ -48,9 +72,9 @@ pdf={Supporting_requestors.pdf},
   booktitle={HAMLETS (Human And Machine in-the-Loop Evaluation and Learning Strategies) Workshop, Neural Information Processing Systems (NeurIPS)},
   year={2020},
   abstract={As artificial intelligence (AI) systems are getting ubiquitous within our society, issues related to its fairness, accountability, and transparency are increasing rapidly. As a result, researchers are integrating humans with AI systems to build robust and reliable hybrid intelligence systems. However, a proper conceptualization of these systems does not underpin this rapid growth. This article provides a precise definition of hybrid intelligence systems as well as explains its relation with other similar concepts through our proposed framework and examples from contemporary literature. The framework breakdowns the relationship between a human and a machine in terms of the degree of coupling and the directive authority of each party. Finally, we argue that all AI systems are hybrid intelligence systems, so human factors need to be examined at every stage of such systems' lifecycle.},
-  html={https://arxiv.org/abs/2012.06161},
-  pdf={hybrid_systems.pdf},
-  abbr={NeurIPS}
+  arxiv={https://arxiv.org/abs/2012.06161},
+  abbr={NeurIPS},
+  teaser={neurips20.png},
 }
 
 @INPROCEEDINGS{8711403,
@@ -59,7 +83,7 @@ pdf={Supporting_requestors.pdf},
   title={A Grid-based Model for Generating Scale-Free Networks}, 
   year={2019},
   abstract={It has been observed that the evolution of complex networks such as social networks is not a random process, there exist some key features which are responsible for their evolution. One such feature is the degree distribution of these networks which follow the power law i.e. P(k) ∝ k<sup>-γ</sup> where γ is a parameter whose value is typically in the range 2 < γ < 3 and such networks are called scale-free networks [4]. In this paper, we formulate a model for generating scale-free networks based on Baraba̅si-Albert model [6], using insights from elementary Euclidean Geometry that takes into account the geometrical location of the nodes instead of their degrees for new connections. We show that our model generates scale-free networks experimentally and provide a mathematical proof for the correctness of the fact that the degree distribution in generated networks indeed follows the power law. We also validate our model on Erdös collaboration network of mathematicians.},
-  html={https://ieeexplore.ieee.org/document/8711403},
   pdf={grid_model.pdf},
-  abbr={COMSNETS}
+  abbr={COMSNETS},
+  teaser={comsnets19.png},
 }
