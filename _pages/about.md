@@ -7,7 +7,7 @@ description:
 profile:
   align: right
   image: profile_pic.png
-  image_circular: True
+  image_circular: False
   address: >
     <p>22nd floor, 177 Huntington Ave</p>
     <p>Boston, MA 02115</p>
