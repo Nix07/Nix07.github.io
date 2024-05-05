@@ -7,7 +7,7 @@ description:
 profile:
   align: right
   image: profile_pic.png
-  image_circular: false
+  image_circular: True
   address: >
     <p>22nd floor, 177 Huntington Ave</p>
     <p>Boston, MA 02115</p>
@@ -18,9 +18,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a second year Ph.D. student at [Khoury College of Computer Sciences](https://www.khoury.northeastern.edu/) at [Northeastern University](https://www.northeastern.edu/) and working with [Prof. David Bau](https://baulab.info/). I completed my Bachelor of Engineering from [RV College of Engineering, Bangalore, India](https://rvce.edu.in/) in fall 2020, with a focus on electrical and computer science.
+I'm a second year Ph.D. student at [Northeastern University](https://www.northeastern.edu/), advised by [Prof. David Bau](https://baulab.info/). I completed my Bachelor of Engineering from [RV College of Engineering, Bangalore, India](https://rvce.edu.in/) in fall 2020, with a focus on electrical and computer science.
 
+Previously, I have worked as a visiting scholar at the [Max Planck Institute for Security and Privacy](https://asiabiega.github.io/), a research intern at both the [Korea Advanced Institute of Science & Technology](https://www.kixlab.org/) and the [Indian Institute of Technology Ropar](https://cse.iitrpr.ac.in/), and as a student trainee at [Samsung Research Bangalore](https://research.samsung.com/sri-b).
 
-Before starting my Ph.D., I was working as a visiting scholar at Responsible Computing Group, supervised by [Prof. Asia J. Biega](https://asiabiega.github.io/). During my undergraduate studies, I interned at [KIXLAB](https://kixlab.org/) and worked under the supervision of [Prof. Juho Kim](http://juhokim.com/), [SCCI Labs](http://sccilabs.org/) supervised by [Prof. Sudarshan Iyengar](http://www.iitrpr.ac.in/sudarshan-iyengar), and [Hasura Technologies](https://hasura.io/). Following my graduation, I worked at [Accolite](https://www.accolite.com/) as a senior software engineer. In parallel, I also conducted research under the supervision of [Prof. Ujwal Gadiraju](http://ujwalgadiraju.com/) and [Prof. Henning Wachsmuth](https://en.cs.uni-paderborn.de/css).
+Broadly, my interest lies in understanding the internal mechanisms of deep neural networks to enhance human-AI collaboration and prevent misalignment. Currently, I'm investigating cognitive abilities such as *reasoning* and *theory of mind* in large language models.
 
-I'm interested in the mechanistic interpretability of large language models, with a focus on understanding and enhancing their capabilities.
+I have received invaluable support from many people throughout my career, and as a result, I’m always happy to assist others and share insights from my experiences. Please feel free to reach out.
