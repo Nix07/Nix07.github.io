@@ -54,9 +54,10 @@ github_username: nix07 # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: nikhil07prakash # your Twitter handle
 linkedin_username: nikhil07prakash # your LinkedIn user name
+semantic_scholar_id: Nikhil-Prakash/2284985448
 scholar_userid: kUfq-fEAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: nikhil07prakash # your Medium username
+medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
@@ -66,6 +67,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
 stackoverflow_id: #your stackoverflow id
+discord_username: # your discord id
 
 rss_icon: false
 
