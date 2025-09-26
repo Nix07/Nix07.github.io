@@ -107,7 +107,7 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 15
+# news_limit: 15  # Removed to show all news with scrolling
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

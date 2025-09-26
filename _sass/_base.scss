@@ -207,6 +207,39 @@ blockquote {
   color: var(--global-text-color);
 }
 
+.news-scrollable {
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  padding: 10px;
+  margin-top: 10px;
+  
+  /* Custom scrollbar styling */
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  &::-webkit-scrollbar-track {
+    background: var(--global-bg-color);
+    border-radius: 4px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background: var(--global-theme-color);
+    border-radius: 4px;
+    opacity: 0.7;
+  }
+  
+  &::-webkit-scrollbar-thumb:hover {
+    opacity: 1;
+  }
+  
+  /* Firefox scrollbar styling */
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-theme-color) var(--global-bg-color);
+}
+
 // Social (bottom)
 
 .social {
