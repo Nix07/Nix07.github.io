@@ -32,7 +32,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
-          bundler-cache: true
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: |
+          gem install bundler:2.4.22
+          bundle install
 
       - name: Setup Pages
         id: pages
