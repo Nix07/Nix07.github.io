@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a forth year Ph.D. student at [Northeastern University](https://www.northeastern.edu/), advised by [Prof. David Bau](https://baulab.info/). I completed my Bachelor of Engineering from [RV College of Engineering, Bangalore, India](https://rvce.edu.in/) in fall 2020, with a focus on electrical and computer science.
+I'm a fourth-year Ph.D. student at [Northeastern University](https://www.northeastern.edu/), advised by [Prof. David Bau](https://baulab.info/). I completed my Bachelor of Engineering from [RV College of Engineering, Bangalore, India](https://rvce.edu.in/) in fall 2020, with a focus on electrical and computer science.
 
 Last summer, I'm interned at Apple in the [AIML Visualization](https://vis.aiml.apple.com) team to work on mechanistic interpretability of math reasoining in LLMs. Previously, I've interned at [Practical AI Alignment and Interpretability Research Group](https://prair.group/) with [Dr. Atticus Geiger](https://atticusg.github.io/) and [SERI-MATS](https://www.matsprogram.org) (first phrase) with [Neel Nanda](https://www.neelnanda.io/about). Prior to that, I worked as a visiting scholar at the [Max Planck Institute for Security and Privacy](https://asiabiega.github.io/), and had stints at [Korea Advanced Institute of Science & Technology](https://www.kixlab.org/) and [Indian Institute of Technology Ropar](https://cse.iitrpr.ac.in/).
 
