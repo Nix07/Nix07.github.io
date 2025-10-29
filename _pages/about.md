@@ -22,6 +22,6 @@ I'm a fourth-year Ph.D. student at [Northeastern University](https://www.northea
 
 Last summer, I'm interned at Apple in the [AIML Visualization](https://vis.aiml.apple.com) team to work on mechanistic interpretability of math reasoining in LLMs. Previously, I've interned at [Practical AI Alignment and Interpretability Research Group](https://prair.group/) with [Dr. Atticus Geiger](https://atticusg.github.io/) and [SERI-MATS](https://www.matsprogram.org) (first phrase) with [Neel Nanda](https://www.neelnanda.io/about). Prior to that, I worked as a visiting scholar at the [Max Planck Institute for Security and Privacy](https://asiabiega.github.io/), and had stints at [Korea Advanced Institute of Science & Technology](https://www.kixlab.org/) and [Indian Institute of Technology Ropar](https://cse.iitrpr.ac.in/).
 
-Broadly, my interest lies in understanding the internal mechanisms of deep neural networks to enhance human-AI collaboration and prevent misalignment. Currently, I'm investigating cognitive abilities such as reasoning and theory of mind in large language models.
+Broadly, my interest lies in understanding the internal mechanisms of deep neural networks, with a current focus on cognitive abilities such as in-context reasoning and theory of mind, as well as exploring their downstream applications.
 
 I have received invaluable support from many people throughout my career, and as a result, I’m always happy to assist others and share insights from my experiences. Please feel free to reach out.
