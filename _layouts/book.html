@@ -1,0 +1,28 @@
+---
+---
+
+<div class="row">
+  <div class="col-sm-2">
+    {%- if entry.teaser -%}
+    <img class="book-cover" src="{{ entry.teaser | prepend: '/assets/img/' | relative_url }}" alt="{{entry.title}}">
+    {%- endif -%}
+  </div>
+
+  <div id="{{entry.key}}" class="col-sm-9">
+    <div class="title">{{entry.title}}</div>
+    <div class="author">
+      {% for author in entry.author_array %}
+      {% if forloop.length == 1 %}
+      {{author.last}}, {{author.first}}
+      {% else %}
+      {% unless forloop.last %}
+      {{author.last}}, {{author.first}},
+      {% else %}
+      and {{author.last}}, {{author.first}}
+      {% endunless %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+

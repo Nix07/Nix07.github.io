@@ -447,6 +447,12 @@ footer.sticky-bottom {
   margin-bottom: -2rem;
   text-align: right;
 }
+.publications .book-cover {
+  width: 8em !important;
+  max-width: 8em !important;
+  height: auto !important;
+  object-fit: contain;
+}
 .publications ol.bibliography {
   list-style: none;
   padding: 0;
