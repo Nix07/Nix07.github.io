@@ -2,7 +2,7 @@
 layout: page
 permalink: /books/
 title: books
-years: [2026, 2025, 2024]
+years: [2026, 2025, 2024, 2023]
 nav: true
 scholar:
   bibliography_template: book
