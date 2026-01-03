@@ -16,8 +16,7 @@ layout: default
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       <div class="profile-image-container">
-        <img class="img-fluid rounded profile-pic" src="/assets/img/profile_pic.png" srcset="/assets/img/profile_pic.png 323w">
-        <img class="img-fluid rounded profile-pic-hover" src="/assets/img/profile_pic_old.jpg" srcset="/assets/img/profile_pic_old.jpg 323w">
+        <img class="img-fluid rounded profile-pic" src="/assets/img/profile_pic_old.jpg" srcset="/assets/img/profile_pic_old.jpg 323w">
       </div>
       {% if page.profile.address %}
       <div class="address">
@@ -52,30 +51,14 @@ layout: default
 </div>
 
 <style>
-  /* CSS for the profile image hover effect */
+  /* CSS for the profile image */
   .profile-image-container {
     position: relative;
     display: inline-block;
   }
   
-  .profile-pic, .profile-pic-hover {
+  .profile-pic {
     display: block;
     width: 100%;
-    transition: opacity 0.3s ease;
-  }
-  
-  .profile-pic-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-  }
-  
-  .profile-image-container:hover .profile-pic {
-    opacity: 0;
-  }
-  
-  .profile-image-container:hover .profile-pic-hover {
-    opacity: 1;
   }
 </style>
