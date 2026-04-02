@@ -1,0 +1,8 @@
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/4.0.0/gems/google-protobuf-3.25.8/ext/google/protobuf_c
+rake RUBYARCHDIR\=/Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-24/4.0.0/google-protobuf-3.25.8 RUBYLIBDIR\=/Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/4.0.0/extensions/arm64-darwin-24/4.0.0/google-protobuf-3.25.8
+/opt/homebrew/Cellar/ruby/4.0.0/lib/ruby/4.0.0/rubygems.rb:263:in 'Gem.find_spec_for_exe': can't find gem rake (>= 0.a) with executable rake (Gem::GemNotFoundException)
+	from /opt/homebrew/Cellar/ruby/4.0.0/lib/ruby/4.0.0/rubygems.rb:237:in 'Gem.find_and_activate_spec_for_exe'
+	from /opt/homebrew/Cellar/ruby/4.0.0/lib/ruby/4.0.0/rubygems.rb:282:in 'Gem.activate_and_load_bin_path'
+	from /opt/homebrew/opt/ruby/bin/rake:25:in '<main>'
+
+rake failed, exit code 1

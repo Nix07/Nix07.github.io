@@ -1,0 +1,23 @@
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+/opt/homebrew/opt/ruby@3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260402-10686-sez8vn sitelibdir\=./.gem.20260402-10686-sez8vn clean
+
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260402-10686-sez8vn sitelibdir\=./.gem.20260402-10686-sez8vn
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+ruby_http_parser.c:365:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+  365 |     if (nparsed < len)
+      |         ~~~~~~~ ^ ~~~
+1 warning generated.
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make -j9 DESTDIR\= sitearchdir\=./.gem.20260402-10686-sez8vn sitelibdir\=./.gem.20260402-10686-sez8vn install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20260402-10686-sez8vn
+
+current directory: /Users/nikhilprakash/Projects/Nix07.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.0/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260402-10686-sez8vn sitelibdir\=./.gem.20260402-10686-sez8vn clean

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bundle config:*)",
+      "Bash(bundle install:*)",
+      "Bash(BUNDLE_IGNORE_BUNDLER_COMPATIBILITY=1 bundle install)",
+      "Bash(sed -i '' 's/BUNDLED WITH/BUNDLED WITH/' /Users/nikhilprakash/Projects/Nix07.github.io/Gemfile.lock)",
+      "Bash(sed -i '' 's/   2\\\\.2\\\\.3/   4.0.3/' /Users/nikhilprakash/Projects/Nix07.github.io/Gemfile.lock)",
+      "Bash(convert --version)",
+      "Bash(pkg-config --libs MagickWand)"
+    ]
+  }
+}
