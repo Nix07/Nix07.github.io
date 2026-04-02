@@ -7,7 +7,7 @@
         {% assign news = site.news | reverse %}
         {% for item in news %}
         <tr>
-          <th>{{ item.date | date: "%b, %Y" }}</th>
+          <th style="white-space: nowrap;">{{ item.date | date: "%b, %Y" }}</th>
           <td>
             {% if item.inline %}
             {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
