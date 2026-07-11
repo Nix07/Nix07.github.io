@@ -16,3 +16,9 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.3.0"
+
+gem "ostruct", "~> 0.6.3"
+gem "logger", "~> 1.7"
